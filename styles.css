@@ -1,0 +1,68 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Inter;
+  color: hsl(0, 0%, 100%);
+}
+
+#main-container {
+  background-color: hsl(0, 0%, 12%);
+  width: 275px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+#image {
+  width: 80px;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+  border-radius: 100%;
+}
+
+#info {
+  margin-top: 20px;
+}
+
+#name {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#location {
+  color: hsl(75, 94%, 57%);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#description {
+  font-weight: 400;
+  font-size: 12px;
+  color: hsl(0, 0%, 80%);
+}
+
+.link-button {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.link-button:hover {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
